@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.CrossCountryCounter" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
+       <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -12,5 +12,35 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="Button.team1" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team1</item>
+    </style>
+    <style name="Button.team2" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team2</item>
+    </style>
+    <style name="Button.team3" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team3</item>
+    </style>
+    <style name="Button.team4" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team4</item>
+    </style>
+    <style name="Button.team5" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team5</item>
+    </style>
+    <style name="Button.team6" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team6</item>
+    </style>
+    <style name="Button.team7" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team7</item>
+    </style>
+    <style name="Button.team8" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team8</item>
+    </style>
+    <style name="Button.team9" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team9</item>
+    </style>
+    <style name="Button.team10" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/team10</item>
     </style>
 </resources>
